@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3fuLPGa+4zaT90muChZFhVM7QQA0kHWs3K/wko3hIEsncJSocd8eHc4BwesI/td1cmcBQOGH6jwO4xxJ8sCZ9A==",
+  "dgSpecHash": "co5uLc8RNKmEHAl7MDtWupWB6Jp4cruzHADHr8N5dePl6Lta9wq+zrOVxrLmt9QdDa1XqB1TSNBtlqqg9OrcKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\c#learning\\DesignPattern\\DesignPattern.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Desktop\\c#learning\\MyDesignPattern\\DesignPattern\\DesignPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
