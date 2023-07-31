@@ -1,14 +1,16 @@
 ﻿
 
 using DesignPattern;
-using DesignPattern.Singleton;
+using DesignPattern.AbstractFactory;
 
-Singleton object1 = Singleton.Instance();
-Singleton object2 = Singleton.Instance();
 
-if (object1 == object2)
+class Program
 {
-    Console.WriteLine("Test");
-}
+    static void Main(string[] args)
+    {
+        AbstractFactory factory = SuperFactory.getFactory("PLASTIC");
 
-int x = 0;
+        Chair plasticChair = factory.CreateChair();
+        plasticChair.create();
+    }
+}
