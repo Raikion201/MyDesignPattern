@@ -1,15 +1,15 @@
 ﻿
 
-using DesignPattern;
-using DesignPattern.Creational.AbstractFactory;
 
 class Program
 {
     static void Main(string[] args)
     {
-        AbstractFactory factory = SuperFactory.getFactory("PLASTIC");
-
-        Chair plasticChair = factory.CreateChair();
-        plasticChair.create();
+        var car = new CarBuilder()
+                .SetMake("Honda")
+                .SetModel("Civic")
+                .SetYear(2022)
+                .SetColor("Red")
+                .Build();
     }
 }
