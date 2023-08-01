@@ -1,8 +1,7 @@
 ﻿
 
 using DesignPattern;
-using DesignPattern.AbstractFactory;
-
+using DesignPattern.Creational.AbstractFactory;
 
 class Program
 {
