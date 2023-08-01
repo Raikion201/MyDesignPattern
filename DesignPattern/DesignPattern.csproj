@@ -8,7 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AbstractFactory\NewFolder\" />
+    <Compile Remove="Creational\AbstractFactory\NewFolder\**" />
+    <EmbeddedResource Remove="Creational\AbstractFactory\NewFolder\**" />
+    <None Remove="Creational\AbstractFactory\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Creational\Builder\" />
   </ItemGroup>
 
 </Project>
