@@ -13,8 +13,4 @@
     <None Remove="Creational\AbstractFactory\NewFolder\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Creational\Builder\" />
-  </ItemGroup>
-
 </Project>
