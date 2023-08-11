@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+Console.WriteLine(element);
+            }
 
-namespace DesignPattern.Behavioral
+            Console.WriteLine("\nReverse traversal:");
+
+collection.ReverseDirection();
+
+foreach (var element in collection)
 {
-    internal class Iterator
-    {
+    Console.WriteLine(element);
+}
+        }
     }
 }
